@@ -1,0 +1,517 @@
+@font-face {
+  font-family: font;
+  src: url(SF-Pro.ttf);
+}
+
+body {
+
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  padding: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 100%;
+  width: 100%;
+  font-family: font;
+}
+
+html {
+  height: 100%;
+  font-family: font;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+}
+
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+
+}
+
+.header_btn {
+  background-color: white;
+  text-align: center;
+  vertical-align: center;
+  color: black;
+  margin: 0px;
+  border: 0px;
+  height: 50px;
+  width: 175PX;
+  font-size: 25px;
+  transition-duration: 0.7s;
+  z-index: 2;
+
+
+}
+
+.header_btn:hover {
+  height: 70px;
+  font-size: 27px;
+  background-color: #272727;
+  font-weight: bold;
+  color: white;
+}
+
+.cntr {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p {
+  color: black;
+  text-align: center;
+  font-size: xx-large;
+
+}
+
+.containerwhite {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: white;
+  width: auto;
+  height: 756px;
+}
+
+.containerblack {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: auto;
+  height: 712px;
+}
+
+.containerblackairpods {
+  position: relative;
+  text-align: center;
+  color: white;
+  background-color: black;
+  width: auto;
+  height: 721px;
+}
+
+.centeredwhite {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: black;
+
+}
+
+.centeredblack {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  color: white;
+
+}
+
+.koupitpro {
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: blue;
+
+}
+
+
+
+.koupit {
+
+  position: absolute;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: blue;
+
+}
+
+.koupitpods {
+
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: blue;
+
+}
+
+
+img {
+
+  width: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underblack {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 27px;
+  color: white;
+
+
+}
+
+.underwhite {
+
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 27px;
+  color: black;
+
+}
+
+footer {
+  position: absolute;
+
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+
+
+}
+
+.footertext {
+
+
+  position: absolute;
+  top: 15%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: black;
+  margin: 2%;
+}
+
+.footertext1 {
+
+
+  position: absolute;
+  top: 15%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: black;
+  margin: 2%;
+}
+
+.footertext2 {
+
+
+  position: absolute;
+  top: 15%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: black;
+  margin: 2%;
+}
+
+.footertext3 {
+
+
+  position: absolute;
+  top: 15%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: black;
+  margin: 2%;
+}
+
+
+
+
+
+
+
+/*mobyl*/
+@media screen and (max-width:575px) {
+
+
+  body {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+  }
+
+  header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+  }
+
+  .header_btn {
+    background-color: white;
+    text-align: center;
+    vertical-align: center;
+    color: black;
+    margin: 0px;
+    border: 0px;
+    height: 50px;
+    width: 85PX;
+    font-size: 25px;
+    transition-duration: 0.7s;
+    z-index: 2;
+    margin: 0px;
+
+  }
+
+  .header_btn:hover {
+    height: 70px;
+    font-size: 27px;
+    background-color: #272727;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+  }
+
+  .containerwhite {
+    position: relative;
+    text-align: center;
+    color: white;
+    background-color: white;
+    width: auto;
+    height: 313px;
+    margin: 0px;
+
+  }
+
+  .containerblack {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: black;
+    width: 100%;
+    height: 287px;
+    margin: 0px;
+  }
+
+  .containerblackairpods {
+    position: relative;
+    text-align: center;
+    color: black;
+    background-color: black;
+    width: 100%;
+    height: 416px;
+    margin: 0px;
+  }
+
+  .PRO {
+
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .IPHONE {
+
+
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .PODS {
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+  }
+
+  .centeredwhite {
+
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: black;
+    width: auto;
+    text-align: center;
+  }
+
+  .centeredblack {
+
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: white;
+    text-align: center;
+  }
+
+  .koupitpro {
+
+
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+  }
+
+
+
+  .koupit {
+
+
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: blue;
+
+  }
+
+  .koupitpods {
+
+
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: blue;
+
+  }
+
+  .underblack {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: white;
+
+  }
+
+  .underwhite {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+  }
+
+
+
+  footer {
+    position: absolute;
+
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+
+
+  }
+
+  .footertext {
+
+
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+    margin: 5%;
+
+  }
+
+  .footertext1 {
+
+
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+    margin: 5%;
+
+  }
+
+  .footertext2 {
+
+
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+    margin: 5%;
+
+  }
+
+  .footertext3 {
+
+
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: black;
+    margin: 5%;
+
+  }
+
+}
+
